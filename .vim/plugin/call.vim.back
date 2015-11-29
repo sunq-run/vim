@@ -1,0 +1,6 @@
+function! GetHTML()
+pyfile test.py
+endfunction
+call GetHTML()
+
+socket.py
