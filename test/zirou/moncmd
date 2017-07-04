@@ -1,0 +1,14 @@
+show dbs
+
+use local
+
+db.createCollection('COL');
+
+db.COL.drop();
+
+db.COL.insert( { name:'mogeta', mogemoge:'takeyuki' } );
+
+db.COL.find()
+
+db.COL.find( { mogemoge:'takeyuki' } );
+
